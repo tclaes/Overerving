@@ -5,7 +5,7 @@ public class Persoon {
 
 
 
-    public Persoon(String naam, String voornaam, Adres adres) {
+    Persoon(String naam, String voornaam, Adres adres) {
         this.naam = naam;
         this.voornaam = voornaam;
         this.adres = adres;
@@ -39,11 +39,12 @@ public class Persoon {
         this.adres = adres;
     }
 
-    public void voegVoornamenToe(String ...waarde){
+    void voegVoornamenToe(String... waarde){
        for(String vnaam : waarde){
            voornaam  += " " + vnaam;
        }
     }
+
 
     @Override
     public String toString() {
