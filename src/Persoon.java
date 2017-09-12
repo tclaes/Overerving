@@ -1,7 +1,7 @@
 public class Persoon {
     private String naam;
     private String voornaam;
-    private Adres  adres;
+    private Adres adres;
 
 
 
